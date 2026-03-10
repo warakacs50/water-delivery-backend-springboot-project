@@ -2,9 +2,6 @@ package com.kavinda.water_delivery.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.hibernate.annotations.CreationTimestamp;
-import com.kavinda.water_delivery.entity.Customer;
-import com.kavinda.water_delivery.entity.Delivery;
 
 
 import java.time.LocalDateTime;

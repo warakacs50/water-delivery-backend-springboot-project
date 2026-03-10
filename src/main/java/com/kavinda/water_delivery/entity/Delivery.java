@@ -3,8 +3,8 @@ package com.kavinda.water_delivery.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import com.kavinda.water_delivery.entity.Order;
 import com.kavinda.water_delivery.entity.Driver;
+
 import java.time.LocalDateTime;
 
 @Entity

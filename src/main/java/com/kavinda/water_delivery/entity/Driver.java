@@ -2,7 +2,7 @@ package com.kavinda.water_delivery.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.format.annotation.DateTimeFormat;
+import com.kavinda.water_delivery.entity.Delivery;
 import java.util.List;
 
 @Entity

@@ -2,8 +2,6 @@ package com.kavinda.water_delivery.entity;
 
 
 import jakarta.persistence.*;
-import com.kavinda.water_delivery.entity.Order;
-import com.kavinda.water_delivery.entity.WaterBottle;
 import lombok.Data;
 
 @Entity

@@ -2,7 +2,6 @@ package com.kavinda.water_delivery.entity;
 
 
 import jakarta.persistence.*;
-import com.kavinda.water_delivery.entity.OrderItem;
 import lombok.Data;
 import java.util.List;
 
