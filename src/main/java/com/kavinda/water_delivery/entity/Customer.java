@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import java.util.List;
+import com.kavinda.water_delivery.entity.Delivery;
 
 import java.time.LocalDateTime;
 
@@ -27,6 +28,8 @@ public class Customer  {
     // Relationship with Order
     @OneToMany(mappedBy = "customer")
     private List<Order> orders;
+
+
 
 
 

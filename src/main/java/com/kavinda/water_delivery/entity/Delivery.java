@@ -4,6 +4,7 @@ package com.kavinda.water_delivery.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 import com.kavinda.water_delivery.entity.Driver;
+import com.kavinda.water_delivery.entity.Customer;
 
 import java.time.LocalDateTime;
 
@@ -28,4 +29,6 @@ public class Delivery {
     @ManyToOne
     @JoinColumn(name = "driver_id")
     private Driver driver;
-}
+
+    }
+
